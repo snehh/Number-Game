@@ -14,23 +14,30 @@ document.getElementById("reset").onclick = function(){
 }
 
 
-
-
-
 if (localStorage.getItem("n1") !== null)
 	document.getElementById("n01").innerHTML = (localStorage.getItem("n1-name")) + ": " + parseInt(localStorage.getItem("n1"))/1000 + " seconds";
+else
+	document.getElementById("n01").innerHTML = "-";
 
 if (localStorage.getItem("n2") !== null)
 	document.getElementById("n02").innerHTML = (localStorage.getItem("n2-name")) + ": " + parseInt(localStorage.getItem("n2"))/1000 + " seconds";
+else
+	document.getElementById("n02").innerHTML = "-";
 
 if (localStorage.getItem("n3") !== null)
 	document.getElementById("n03").innerHTML = (localStorage.getItem("n3-name")) + ": " + parseInt(localStorage.getItem("n3"))/1000 + " seconds";
+else
+	document.getElementById("n03").innerHTML = "-";
 
 if (localStorage.getItem("n4") !== null)
 	document.getElementById("n04").innerHTML = (localStorage.getItem("n4-name")) + ": " + parseInt(localStorage.getItem("n4"))/1000 + " seconds";
+else
+	document.getElementById("n04").innerHTML = "-";
 
 if (localStorage.getItem("n5") !== null)
 	document.getElementById("n05").innerHTML = (localStorage.getItem("n5-name")) + ": " + parseInt(localStorage.getItem("n5"))/1000 + " seconds";
+else
+	document.getElementById("n05").innerHTML = "-";
 
 
 if (localStorage.getItem("h1") == null)
