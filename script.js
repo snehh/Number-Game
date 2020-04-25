@@ -144,14 +144,14 @@ function Recurse(){
 		var hh = setTimeout(function(){
 			if (adder == 21){
 
-				if((localStorage.getItem("n5") == null)|| localStorage.getItem("n5") > finalTime){
+				if((localStorage.getItem("n5") == null)|| (localStorage.getItem("n5") > finalTime)){
 				sessionStorage.setItem("name", window.prompt("You have beat a highscore! Enter your name"));	
 				}
 				partTwo();
 			}
 			else {
 
-				if((localStorage.getItem("h5") == null)|| localStorage.getItem("h5") > finalTime){
+				if ((localStorage.getItem("h5") == null) || (localStorage.getItem("h5") > finalTime)){
 				sessionStorage.setItem("name1", window.prompt("You have beat a highscore! Enter your name"));
 				}
 				partThree();
