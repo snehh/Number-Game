@@ -1,0 +1,43 @@
+h1, h2.hs{
+	color: #111111;
+}
+
+hr{
+	size: 2px;
+	color: #111111;
+	background-color: #0A6282;
+	height: 2px;
+	margin: 0;
+}
+
+body{
+	background-color: #c6c6c6;
+}
+
+button{
+	background-color: rgba(100,100,100,0.95);
+	color: #dddddd;
+}
+
+a{
+	color: #c6c6c6;
+}
+
+div div button{
+	border: 2px;
+	border-color: "black";
+}
+
+div div button:hover{
+  background-color: rgba(100,100,100,0.75);
+}
+
+div div#Game{
+	background-color: rgba(100,100,100,0.45);
+	display: inline-block;
+	border-radius: 35px;
+}
+
+div#normal, div#hard{
+	background-color: rgba(100,100,100,0.45);
+}
